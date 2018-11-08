@@ -156,6 +156,7 @@ font-size:  1rem;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #558FB9;
+  font-weight: bold;
 }
 
 
@@ -405,20 +406,31 @@ font-size: 1.4rem;
 /* Hexagon width and height adjust for tabled  */
 
 .hexagon {
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
 }
 
 .hexagon-image {
  background-size: 60% 100%;
 }
 
-.profile-photo {
-  width: 250px;
-  margin: 0 auto;
-  display: block;
 
+.image-container {
+margin-top: auto;
+margin-bottom: auto;
 }
+
+
+
+
+
+/* Skills  */
+
+.skills-container {
+  margin-top: 100px;
+}
+
+
 
 /* PORTFOLIO */
 
