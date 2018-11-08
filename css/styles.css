@@ -149,11 +149,15 @@ font-size:  1rem;
 
 }
 
-.profile-photo {
-  border-radius: 50%;
-    border: 3px solid #b9cfed;
-
+.text-introduction {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #558FB9;
 }
+
 
     /* Hexagon with profile photo */
 
@@ -465,8 +469,14 @@ font-size: 1.4rem;
     width:200px;
     height: auto;
 
-
   }
+
+  .text-container {
+    width: 50%;
+    text-align: center;
+  }
+
+
 
   .skills-container p {
       width: 50%;
