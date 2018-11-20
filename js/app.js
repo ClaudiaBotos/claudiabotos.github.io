@@ -49,3 +49,11 @@ function typeWriter() {
 };
 
 typeWriter();
+
+
+
+// Initialize AOS Plug-in for animation scroll effects
+
+AOS.init({
+  duration: 800,
+});

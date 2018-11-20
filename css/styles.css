@@ -139,11 +139,14 @@ font-size:  1rem;
 
 .about,
 .skills,
-.portfolio
+.portfolio,
+.contact
  {
   text-align: center;
   margin: 50px;
   font-style: italic;
+  font-family: 'Fredericka the Great', cursive;
+  color: #EBB834;
 }
 
 
@@ -168,7 +171,8 @@ font-size:  1rem;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #558FB9;
-  font-weight: bold;
+  font-family: 'Fredericka the Great', cursive;
+
 }
 
 
@@ -268,10 +272,7 @@ font-size:  1rem;
 }
 
 
-/* ARROW SVG
-.project-img {
-  max-width: 100%;
-} */
+
 
 
 /* PORTFOLIO image overlay */
@@ -303,13 +304,57 @@ margin-top: 50px;
   margin-top: 10px;
 }
 
-
-
-
-
-
-
 /* CONTACT */
+
+.contact {
+  border-collapse: separate;
+  border-spacing: 16px 0;
+  border-spacing: 1rem 0;
+   line-height: .25;
+  white-space: nowrap;
+  width: 100%;
+  display: table;
+  margin: 1em 0 .5em;
+  table-layout: auto;
+  text-align: center;
+}
+
+.contact:before,
+.contact:after {
+  border-top: 3px double #EBB834; ;
+  content: '';
+  display: table-cell;
+  width: 50%;
+  border-top-width: 6px;
+}
+
+.contact-h {
+  padding: 20px;
+color:  #a8a8a8;
+
+}
+
+.contact-h a {
+  color:#EBB834;
+  font-family: 'Fredericka the Great', cursive;
+  text-decoration: none;
+
+
+}
+
+.container-contact h5 {
+  text-align: center;
+  font-weight: bold;
+  margin: 50px;
+  color:  #a8a8a8;
+
+
+}
+
+
+
+
+/* FOOTER */
 
 .footer {
   font-size: .6rem;
@@ -326,25 +371,7 @@ padding-top: 20px;
   list-style: none;
 }
 
-.contact-h {
-  padding: 20px;
-color:  #a8a8a8;
-  border-radius: 5px;
-}
 
-.contact-h a {
-  color:#7BACDD;
-  text-decoration: none;
-
-
-}
-
-.contact-h a:hover {
-
-
-
-
-}
 
 .gmail {
   background-image: url(../images/google-plus.svg);
