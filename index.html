@@ -7,7 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Claudia Botos|Front-End Developer </title>
   <link rel='stylesheet' href='./css/normalize.css' >
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel='stylesheet' href='./css/styles.css' >
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,400i" rel="stylesheet">
 </head>
@@ -33,17 +33,19 @@
        </nav>
 
 <!--Hero header. Added a quick introduction-->
-       <div class='hero-header d-flex flex-column align-items-center justify-content-center'>
+       <div class='hero-header d-flex flex-column align-items-center justify-content-center '>
        <h1 class='hero-heading'>Hello! I'm Claudia Botos</h1>
-       <p class='hero-text'>Front-end Developer based in Turnhout, Belgium </p>
+       <p class='hero-text' id='hero-text'>  </p>
 </div>
 
 <!--SVG arrows , showing the visitor to scroll down -->
-<svg class="arrows">
+<a href='#about'> <svg class="arrows">
 							<path class="a1" d="M0 0 L30 32 L60 0"></path>
 							<path class="a2" d="M0 20 L30 52 L60 20"></path>
 							<path class="a3" d="M0 40 L30 72 L60 40"></path>
 						</svg>
+
+          </a>
 
 </header>
 
@@ -52,16 +54,16 @@
   <!--About me section-->
 
 <div class='container-fluid'>
-  <h3 class='about' id='about'>ABOUT ME </h3>
+  <h3 class='about' id='about'> 	&lt;ABOUT ME	/&gt; </h3>
 
 <div class='row'>
 
 
   <!--Profile images places inside a hexagon shape-->
-<div class=' col-md-5 col-lg-4 image-container'>
-<div class='profile-img hexagon'>
-  <div class='hexagon-inside'>
-    <div class='hexagon-image'>
+<div class=' col-md-5 col-lg-5 image-container'>
+<div class='profile-img hexagon '>
+  <div class='hexagon-inside '>
+    <div class='hexagon-image  '>
 
     </div>
 
@@ -69,10 +71,9 @@
 </div>
 
 </div>
-  <!--<img class='profile-photo img-fluid' src='images/profile-photo.jpg' alt='Photo of me' /> -->
 
 
-<div class='col-md-7 col-lg-8 d-lg-flex flex-lg-column align-self-lg-center '>
+<div class='col-md-7 col-lg-7 d-lg-flex flex-lg-column align-self-lg-center '>
 
 <div class='text-container'>
 
@@ -80,8 +81,7 @@
     <p class='text container-fluid'> I am a self-learner Front End Developer, I learned on Treehouse in the Front End TechDegree program. I focus to create user-friendly websites, make them responsive and I am also a continue learner. I am looking to put in practice my knowledge and to improve myself by working in a company environment alongside a team.  </p>
 
 
-<p class='text  container-fluid'>Even at the beginning of my journey as a Front-End Developer, I have lots of ambition and desire for creating great projects. My motto is "Don't dream your life, live your dream! " and that is exactly what I plan on doing.
- </p>
+
 
  <p class='text  container-fluid'>When I'm not in front of my laptop, I love exploring new worlds by reading books, or spend time with my amazing husband and friends.
  </p>
@@ -90,12 +90,13 @@
 </div>
 
 </div> <!--End About Me-->
+
 <!--Skills Section. Added svg icons and text explaining what my skills are, and what can I provide-->
-<div class='skills-container'>
+<div class='skills-container container-fluid '>
 
-<h3 class='skills' id='skills'> What can I do for you </h3>
+<h3 class='skills' id='skills'>&lt; What can I do for you /	&gt; </h3>
 
-<div class='d-md-flex flex-md-row justify-content-md-around'>
+<div class='d-md-flex flex-md-row justify-content-md-around skills-container'>
 <div class='  web-dev'>
    <img src='images/web-development.svg'  alt='Web Development icon' class='svg-icon' />
   <h5>Web Development </h5>
@@ -106,7 +107,7 @@
 
 <img src='images/responsive.svg'  alt='Responsive icon' class='svg-icon' />
 <h5>Responsive Design </h5>
- <p> The websites I create can be properly viewed on a variety of screens, and also developed following the accesibility compliance rules. </p>
+ <p> All websites should be properly viewed on a variety of screens, and also developed following the accesibility compliance rules. </p>
 
 </div>
 
@@ -114,7 +115,7 @@
 
 <img src='images/maintanence.svg'  alt='Maintanence icon' class='svg-icon' />
   <h5>Maintanence and Support </h5>
-  <p>I am also going to constant provide maintanence and support to your websites, along with any needed advice, helping you get the needed results. </p>
+  <p>It is important for your website to run smoothly and without any error. I am here to help you with that and with achieving your goals much faster . </p>
  </div>
 </div>
 
@@ -123,16 +124,16 @@
   <!--Portfolio section of the page, where I will display my projects and some information regarding the languages used when creating them -->
    <div class='container-fluid container-portfolio'>
 
-      <h3 class='portfolio' id='portfolio'>Portfolio</h3>
+      <h3 class=' portfolio' id='portfolio'>&lt;Portfolio / &gt;</h3>
 
       <div class='container-projects'>
 
       <div class="container">
 
-  <div class="content">
+  <div class="content rounded ">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/responsive-website.png" alt='Responsive website project'>
+      <img class="content-image img-fluid shadow " src="images/responsive-website.png" alt='Responsive website project'>
       <div class="content-details fadeIn-left">
         <h5>Responsive Website</h5>
         <p class='project-text'>Here I had been provided with three mock-ups of a desktop, tablet and mobile design of the website and I had to create it after those mock-ups using HTML and CSS. It was the first project to create after a mock-up from scratch, but I learned a lot about breakpoints while working on it.  </p>
@@ -142,10 +143,10 @@
 </div>
 
 <div class="container">
-<div class="content">
+<div class="content rounded ">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/registration-form.png" alt='Registration form project'>
+      <img class="content-image img-fluid shadow " src="images/registration-form.png" alt='Registration form project'>
       <div class="content-details fadeIn-left">
         <h5>Registration form</h5>
         <p class='project-text'> Here I had to create mobile-first registration form using a variety of HTML form elements. I had been provided with two mock-ups for mobile and desktop and I created them using the HTML form elements and styled it with CSS. </p>
@@ -157,10 +158,10 @@
 
     <div class="container">
 
-<div class="content">
+<div class="content rounded">
   <a href="" target="_blank">
     <div class="content-overlay"></div>
-    <img class="content-image" src="images/photo-gallery.png" alt='Responsive website project'>
+    <img class="content-image img-fluid shadow" src="images/photo-gallery.png" alt='Responsive website project'>
     <div class="content-details fadeIn-left">
       <h5>Interactive Photo Gallery</h5>
       <p class='project-text'> In this project I created an interactive photo gallery using JavaScript and jQuery. At the top of the page there is a search area, where photos will hide or show, depending on user input. Also the photos are displayed in a lightbox when a user clicks.  </p>
@@ -171,10 +172,10 @@
 
 
 <div class="container">
-  <div class="content">
+  <div class="content rounded">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/responsive-website.png" alt='Responsive website project converted in Sass'>
+      <img class="content-image img-fluid shadow" src="images/responsive-website.png" alt='Responsive website project converted in Sass'>
       <div class="content-details fadeIn-left">
         <h5>CSS to Sass</h5>
         <p class='project-text'>Here I converted a CSS stylesheet to Sass using SCSS partials, variables, extends, and mixins.  </p>
@@ -189,10 +190,10 @@
 
 
 <div class="container">
-    <div class="content">
+    <div class="content rounded">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/video-player.png" alt='Interactive Video Player'>
+      <img class="content-image img-fluid shadow" src="images/video-player.png" alt='Interactive Video Player'>
       <div class="content-details fadeIn-left">
         <h5>Interactive Video Player</h5>
         <p class='project-text'> Here I have been provided with mock-ups, and I had to build an HTML5 video player using JavaScript and the HTML5 Video API.  </p>
@@ -205,10 +206,10 @@
 
 
 <div class="container">
-    <div class="content">
+    <div class="content rounded">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/accesibility-refactor.png" alt='Accesibility Refactor'>
+      <img class="content-image img-fluid shadow" src="images/accesibility-refactor.png" alt='Accesibility Refactor'>
       <div class="content-details fadeIn-left">
         <h5>Accesibility Refactor</h5>
         <p class='project-text'> For this website I have been tasked to modify the website files of a website to improve the site's accessibility for users.  </p>
@@ -221,10 +222,10 @@
 
 
 <div class="container">
-    <div class="content">
+    <div class="content rounded ">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/dashboard.png" alt='Web App Dashboard'>
+      <img class="content-image img-fluid shadow" src="images/dashboard.png" alt='Web App Dashboard'>
       <div class="content-details fadeIn-left">
         <h5>Web App Dashboard</h5>
     <p class='project-text'> In this project I had a mock-up and a few icons and I had to build a web dashboard complete with JavaScript-driven charts and graphs.   </p>
@@ -238,10 +239,10 @@
 
 
 <div class="container">
-    <div class="content">
+    <div class="content rounded ">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/employee-directory.png" alt='Employee Directory'>
+      <img class="content-image img-fluid shadow" src="images/employee-directory.png" alt='Employee Directory'>
       <div class="content-details fadeIn-left">
         <h5>Employee Directory</h5>
         <p class='project-text'> In this project I used a Public API to create a Front End for a employee directory, using Random User Generator API to grab information for 12 employees. </p>
@@ -253,10 +254,10 @@
 
 
 <div class="container">
-    <div class="content">
+    <div class="content rounded">
     <a href="" target="_blank">
       <div class="content-overlay"></div>
-      <img class="content-image" src="images/react-gallery.png" alt='React Flickr Gallery'>
+      <img class="content-image img-fluid shadow" src="images/react-gallery.png" alt='React Flickr Gallery'>
       <div class="content-details fadeIn-left">
         <h5>React Flickr Gallery</h5>
         <p class='project-text'> Here I had to create an image gallery using React and the Flickr API. I have build the gallery components and added to the supplied CSS and set up routing  </p>
@@ -280,11 +281,12 @@
 </main>
 <!-- Footer and Contact section of the page. Here I have provided all the ways I can be reached for future projects-->
 
-<footer class='footer'>
+<footer class='footer container-fluid'>
 
-     <h3 class='contact'>Contact </h3>
 
-  <div>
+
+  <div class='container'>
+
  <h5 class='contact-h'>Get in touch, <a href="mailto:claudia.nicoleta94@gmail.com">Email me! </a> </h5>
 
 
@@ -297,16 +299,21 @@
 
   </div>
 
-  <p class='footer-p'> Designed &amp; Coded by Claudia Botos</p>
+
+  <p class='copyright'>&copy; 2018 Claudia Botos </p>
 
 </footer>
 <!--End Footer and Contact section-->
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src='js/app.js'></script>
 
 </body>
 
