@@ -2,7 +2,7 @@
 //Creating a smooth scroll effect on links
 $(document).ready(function(){
   //add smoth scroll to all links
-$('a').on('click', function(event){
+$('nav a , .arrow-scroll').on('click', function(event){
 
 
 
@@ -29,6 +29,10 @@ $('a').on('click', function(event){
 });
 
 //END of smooth scroll
+
+
+//Creating a sticky navigation on scroll
+
 
 
 
