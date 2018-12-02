@@ -16,9 +16,9 @@
 
 <body>
 
-<header>
+<header class='header'>
   <!--Navigation-->
-       <nav class="navbar navbar-expand-lg  ">
+       <nav class="navbar navbar-expand-lg sticky">
          <a class="navbar-brand" href="#"> Claudia Botos</a>
          <button class="navbar-toggler navbar-light " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
 </div>
 
 <!--SVG arrows , showing the visitor to scroll down -->
-<a href='#about'> <svg class="arrows">
+<a href='#about' class='arrow-scroll'> <svg class="arrows">
 							<path class="a1" d="M0 0 L30 32 L60 0"></path>
 							<path class="a2" d="M0 20 L30 52 L60 20"></path>
 							<path class="a3" d="M0 40 L30 72 L60 40"></path>
@@ -93,7 +93,7 @@
 </div> <!--End About Me-->
 
 <!--Skills Section. Added svg icons and text explaining what my skills are, and what can I provide-->
-<div class='skills-container container-fluid '>
+<div class='skills-container container-fluid' data-aos="zoom-in" >
 
 <h3 class='skills' id='skills'>&lt; What can I do for you /	&gt; </h3>
 
@@ -125,34 +125,32 @@
   <!--Portfolio section of the page, where I will display my projects and some information regarding the languages used when creating them -->
    <div class='container-fluid container-portfolio'>
 
-      <h3 class=' portfolio' id='portfolio'>&lt;Portfolio / &gt;</h3>
+      <h3 class=' portfolio'  id='portfolio'>&lt;Portfolio / &gt;</h3>
 
       <div class='container-projects'>
 
       <div class="container">
 
   <div class="content rounded ">
-    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow " src="images/responsive-website.png" alt='Responsive website project'>
       <div class="content-details fadeIn-left">
         <h5>Responsive Website</h5>
         <p class='project-text'>Here I had been provided with three mock-ups of a desktop, tablet and mobile design of the website and I had to create it after those mock-ups using HTML and CSS. It was the first project to create after a mock-up from scratch, but I learned a lot about breakpoints while working on it.  </p>
      </div>
-    </a>
+
   </div>
 </div>
 
 <div class="container">
 <div class="content rounded ">
-    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow " src="images/registration-form.png" alt='Registration form project'>
       <div class="content-details fadeIn-left">
         <h5>Registration form</h5>
         <p class='project-text'> Here I had to create mobile-first registration form using a variety of HTML form elements. I had been provided with two mock-ups for mobile and desktop and I created them using the HTML form elements and styled it with CSS. </p>
       </div>
-    </a>
+
   </div>
 </div>
 
@@ -160,28 +158,27 @@
     <div class="container">
 
 <div class="content rounded">
-  <a href="" target="_blank">
-    <div class="content-overlay"></div>
+      <div class="content-overlay"></div>
     <img class="content-image img-fluid shadow" src="images/photo-gallery.png" alt='Responsive website project'>
     <div class="content-details fadeIn-left">
       <h5>Interactive Photo Gallery</h5>
       <p class='project-text'> In this project I created an interactive photo gallery using JavaScript and jQuery. At the top of the page there is a search area, where photos will hide or show, depending on user input. Also the photos are displayed in a lightbox when a user clicks.  </p>
    </div>
-  </a>
+
 </div>
 </div>
 
 
 <div class="container">
   <div class="content rounded">
-    <a href="" target="_blank">
-      <div class="content-overlay"></div>
+
+    <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow" src="images/responsive-website.png" alt='Responsive website project converted in Sass'>
       <div class="content-details fadeIn-left">
         <h5>CSS to Sass</h5>
         <p class='project-text'>Here I converted a CSS stylesheet to Sass using SCSS partials, variables, extends, and mixins.  </p>
       </div>
-    </a>
+
   </div>
 </div>
 
@@ -192,14 +189,13 @@
 
 <div class="container">
     <div class="content rounded">
-    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow" src="images/video-player.png" alt='Interactive Video Player'>
       <div class="content-details fadeIn-left">
         <h5>Interactive Video Player</h5>
         <p class='project-text'> Here I have been provided with mock-ups, and I had to build an HTML5 video player using JavaScript and the HTML5 Video API.  </p>
     </div>
-    </a>
+
 
 </div>
 </div>
@@ -208,14 +204,13 @@
 
 <div class="container">
     <div class="content rounded">
-    <a href="" target="_blank">
-      <div class="content-overlay"></div>
+        <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow" src="images/accesibility-refactor.png" alt='Accesibility Refactor'>
       <div class="content-details fadeIn-left">
         <h5>Accesibility Refactor</h5>
         <p class='project-text'> For this website I have been tasked to modify the website files of a website to improve the site's accessibility for users.  </p>
 </div>
-    </a>
+
     </div>
 
 
@@ -224,7 +219,6 @@
 
 <div class="container">
     <div class="content rounded ">
-    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow" src="images/dashboard.png" alt='Web App Dashboard'>
       <div class="content-details fadeIn-left">
@@ -232,8 +226,7 @@
     <p class='project-text'> In this project I had a mock-up and a few icons and I had to build a web dashboard complete with JavaScript-driven charts and graphs.   </p>
  </div>
 
-    </a>
-    </div>
+      </div>
   </div>
 
 
@@ -241,22 +234,19 @@
 
 <div class="container">
     <div class="content rounded ">
-    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow" src="images/employee-directory.png" alt='Employee Directory'>
       <div class="content-details fadeIn-left">
         <h5>Employee Directory</h5>
         <p class='project-text'> In this project I used a Public API to create a Front End for a employee directory, using Random User Generator API to grab information for 12 employees. </p>
 </div>
-    </a>
-    </div>
+      </div>
 
 </div>
 
 
 <div class="container">
   <div class="content rounded">
-    <a href="" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image img-fluid shadow" src="images/react-gallery.png" alt='React Flickr Gallery'>
       <div class="content-details fadeIn-left">
@@ -265,7 +255,6 @@
       </div>
 
 
-    </a>
 
   </div>
 </div>
@@ -282,7 +271,8 @@
 
     <h3 class='contact' id='contact'>&lt;Contact / &gt; </h3>
 
-    <h5> Let's create something amazing together!<h5/>
+    <h5 data-aos="fade-right"  data-aos-duration="1000"
+     data-aos-easing="linear"> Let's create something amazing together!<h5/>
 
     <p class='contact-h'>Get in touch, <a href="mailto:claudia.nicoleta94@gmail.com">Email me! </a> </p>
 
