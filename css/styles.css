@@ -8,7 +8,10 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   color: #34515E;
+
 }
+
+
 
 h3 {
   color: #550055;
@@ -330,7 +333,9 @@ margin-top: 50px;
 
 .contact-h {
   padding: 20px;
-color:  #a8a8a8;
+  color:  #a8a8a8;
+  font-size: 1.1rem;
+
 
 }
 
@@ -349,7 +354,9 @@ color:  #a8a8a8;
   color:  #a8a8a8;
 
 
+
 }
+
 
 
 
@@ -363,6 +370,7 @@ text-align: center;
 background-color: #3B3F45;
 color: #fff;
 padding-top: 20px;
+
 }
 
 
@@ -434,6 +442,8 @@ header {
 .nav-item {
 font-size: 1.4rem;
 }
+
+
 
 /* HERO HEADING AND TEXT */
 .hero-header {
@@ -525,6 +535,19 @@ margin-bottom: auto;
 }
 
 
+/* CONTACT */
+
+.contact-h {
+  font-size: 1.4rem;
+}
+
+
+
+/* FOOTER */
+
+.copyright {
+  font-size: .8rem;
+}
 
 }
 
