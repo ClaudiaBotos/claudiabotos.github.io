@@ -324,7 +324,7 @@ margin-top: 50px;
 
 .contact:before,
 .contact:after {
-  border-top: 3px double #EBB834; ;
+  border-top: 3px double #EBB834; 
   content: '';
   display: table-cell;
   width: 50%;
@@ -335,6 +335,7 @@ margin-top: 50px;
   padding: 20px;
   color:  #a8a8a8;
   font-size: 1.1rem;
+  text-align: center;
 
 
 }
@@ -358,6 +359,20 @@ margin-top: 50px;
 }
 
 
+.contact-icon {
+  padding-bottom: 20px;
+}
+
+.drawn-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+
+}
+
+
 
 
 
@@ -375,51 +390,10 @@ padding-top: 20px;
 
 
 
-.footer ul {
-  list-style: none;
-}
-
-
-
-.gmail {
-  background-image: url(../images/google-plus.svg);
-}
-
-.github {
-  background-image: url(../images/github.svg);
-}
-
-.twitter {
-  background-image: url(../images/twitter.svg);
-}
-
-.facebook {
-  background-image: url(../images/facebook.svg);
-}
-
-
-.social-media {
-  padding: 0;
-}
-
-.social{
- display: inline-block;
- text-indent: -9999px;
- width: 40px;
- height:40px;
- margin: 30px 10px;
- transition: transform .3s ease-in-out;
-
-}
-
-
-.social:hover {
-
-  transform: scale(1.2);
-}
 
 
 .copyright {
+  display: inline-block;
   margin-bottom: 0;
   padding-bottom: 5px;
   color: #a8a8a8;
@@ -540,6 +514,18 @@ margin-bottom: auto;
 .contact-h {
   font-size: 1.4rem;
 }
+
+
+
+  .drawn-logo {
+    width: 50px;
+    height: 50px;
+  margin: 20px 10px;
+
+
+
+
+  }
 
 
 
@@ -705,7 +691,8 @@ margin-bottom: auto;
 
 
 
-  /* FOOTER */
+  /* Contact */
+
 
 
 
