@@ -54,7 +54,7 @@ function typeWriter() {
 
 
   }
-};
+}
 
 typeWriter();
 
