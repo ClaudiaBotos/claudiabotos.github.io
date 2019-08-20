@@ -488,7 +488,7 @@ padding-top: 20px;
 
 
 .copyright {
-  display: inline-block;
+  display: block;
   margin-bottom: 0;
   padding-bottom: 5px;
   color: #a8a8a8;
