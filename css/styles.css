@@ -54,6 +54,13 @@ font-size:  1rem;
   color: #EFEFEF;
 }
 
+.svg-logo {
+  width: 50px;
+  height: 50px;
+
+
+}
+
 /* Curly brackets effect on hover */
 
 .hover-effect a::before,
@@ -517,6 +524,13 @@ header {
 font-size: 1.4rem;
 margin-left: 1rem;
 margin-right: 1rem;
+}
+
+.svg-logo {
+  width: 125px;
+  height: 125px;
+  margin-left: 80px;
+
 }
 
 
